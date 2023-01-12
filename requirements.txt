@@ -6,7 +6,7 @@ nltk
 numpy
 requests
 torch
-Gunicorn
+gunicorn
 # torch==1.13.1
 
 
