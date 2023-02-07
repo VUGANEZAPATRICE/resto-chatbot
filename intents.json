@@ -371,6 +371,22 @@
       "responses": [
         "You will find a list of RIB stations on Irembo website."
       ]
+      
+    },
+    {
+      "tag": "rib_far_frome",
+      "patterns": [
+        "where can I get the identity card?",
+        "Where is the place to obtain an identity card?",
+        "Can you tell me where to go to get an identity card?",
+        "Can you suggest a spot to obtain my identity card?",
+        "Where would I go to secure an identity card?"
+        
+      ],
+      "responses": [
+        "180 sectors have been set up to facilitate a citizen. IDs are completed in 30 days and are sent the sector of residence, where the applicant can go and recuperate his/her ID."
+      ]
+      
     }
   ]
 }
