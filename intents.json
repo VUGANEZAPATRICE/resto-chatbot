@@ -19,7 +19,11 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,15 +32,19 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
     },
-   
-
-
-
-
- {
+    {
       "tag": "´NIDAServices",
       "patterns": [
         "Services offered at NIDA",
@@ -52,185 +60,317 @@
     },
     {
       "tag": "applicationRequirements",
-      "patterns": ["What are the requirements for obtaining a first identity card?", "What do I need to get my first identity card issued?", "Can you provide a list of the necessary requirements for a first identity card issuance?","What criteria must be met to receive a first identity card?","What is the process for getting my first identity card, including the requirements?"],
+      "patterns": [
+        "What are the requirements for obtaining a first identity card?",
+        "What do I need to get my first identity card issued?",
+        "Can you provide a list of the necessary requirements for a first identity card issuance?",
+        "What criteria must be met to receive a first identity card?",
+        "What is the process for getting my first identity card, including the requirements?"
+      ],
       "responses": [
         "The Rwandan identity card is issued to a 16-year-old Rwandan, registered in NIDA database (NPR).  Having an application number (code). A document proving her/his identification (school card, insurance card or certificate issued by the Sector (full identity certificate, identity card)). payment of 500Frw using IREMBO (here is the link: irembo.gov.rw/user/citizen/service/nida/application_for_national_id)"
       ]
     },
-
-{
+    {
       "tag": "Lost_stolen_ID",
-      "patterns": ["The process of a lost or stolen identity card", "What is the procedure for reporting a lost or stolen identity card?", "Can you explain the process for replacing a lost or stolen identity card?","How does one go about replacing a lost or stolen identity card?", "What steps are involved in reporting a lost or stolen identity card?","Could you outline the procedure for dealing with a lost or stolen identity card?"],
+      "patterns": [
+        "The process of a lost or stolen identity card",
+        "What is the procedure for reporting a lost or stolen identity card?",
+        "Can you explain the process for replacing a lost or stolen identity card?",
+        "How does one go about replacing a lost or stolen identity card?",
+        "What steps are involved in reporting a lost or stolen identity card?",
+        "Could you outline the procedure for dealing with a lost or stolen identity card?"
+      ],
       "responses": [
         "Citizens who lost their IDs or those with damaged IDs must report it to the RIB through irembo.gov.rw/user/citizen/service/nida/replacement_of_national_id.After making a notification the citizen receives an SMS or email informing him that his notification has been received.He is immediately given an appointment to report himself at the nearest RIB station. The person who declares that he has lost his ID is given a certificate to replace his ID in the event of his choice. Once RIB has confirmed that the identity card has been lost, the citizen is given a code so that he can proceed his request. Once the citizen has paid, his or her request goes automatically in NIDA system. Once the Registrar of Civil Status has confirmed his / her request, the citizen receives an SMS informing him / her that an ID replacement certificate has been obtained. N.B: Payment is done through irembo."
       ]
     },
-
-{
+    {
       "tag": "Diaspora_services",
-      "patterns": ["How does one go about registering to get Identity card(ID) as a member of the diaspora?", "What is the process for registering for diaspora to get id card?", "Can you explain the steps involved in registering for the diaspora to get identity card(id)?","What is required for registering the diaspora to get id card?", "How can a diaspora become registered to get id card?"],
+      "patterns": [
+        "How does one go about registering to get Identity card(ID) as a member of the diaspora?",
+        "What is the process for registering for diaspora to get id card?",
+        "Can you explain the steps involved in registering for the diaspora to get identity card(id)?",
+        "What is required for registering the diaspora to get id card?",
+        "How can a diaspora become registered to get id card?"
+      ],
       "responses": [
         "A Rwandan living abroad is registered at the embassy of the country in which he resides. When he arrived in Rwanda without registering at the embassy, ​​he can register at NIDA Headquarters."
       ]
     },
-
-{
+    {
       "tag": "diaspora_documents_rwandan",
-      "patterns": ["What documents are used to prove that the applicant is Rwandan?", "Can you list the documents used to confirm Rwandan nationality?", "How does one prove that they are Rwandan through documentation?","What proof of Rwandan nationality is required for the applicant?","Are there specific documents that are required to establish Rwandan identity?","Can you specify the documentation needed to demonstrate Rwandan citizenship?"],
+      "patterns": [
+        "What documents are used to prove that the applicant is Rwandan?",
+        "Can you list the documents used to confirm Rwandan nationality?",
+        "How does one prove that they are Rwandan through documentation?",
+        "What proof of Rwandan nationality is required for the applicant?",
+        "Are there specific documents that are required to establish Rwandan identity?",
+        "Can you specify the documentation needed to demonstrate Rwandan citizenship?"
+      ],
       "responses": [
         "- Old ID card of the owner or one of his / her parents, or a copy of his / her 2007 registration book signed and stamped by the Sector Executive Secretary. - A rwandan passport or Laissez passer. - A family book (Livret de famille) issued by the country of residence showing that he is a Rwandan. - Card issued by the Rwandan Embassy in the country of residence (Consular Card / carte consulaire). - A Rwandan citizenship certificate issued by the Immigration Service"
       ]
     },
-
-{
+    {
       "tag": "diaspora_documents_identity",
-      "patterns": ["What documents can be used to indicate the identity of the applicant?", "Can you list the types of documents that can be used to establish the identity of an applicant?", "What documentation is accepted as proof of identity for the applicant?","How does one prove their identity through documentation?","Are there specific documents that are required to confirm the identity of the applicant?","Can you specify the types of documentation that can be used to verify the identity of the applicant?"],
+      "patterns": [
+        "What documents can be used to indicate the identity of the applicant?",
+        "Can you list the types of documents that can be used to establish the identity of an applicant?",
+        "What documentation is accepted as proof of identity for the applicant?",
+        "How does one prove their identity through documentation?",
+        "Are there specific documents that are required to confirm the identity of the applicant?",
+        "Can you specify the types of documentation that can be used to verify the identity of the applicant?"
+      ],
       "responses": [
         "- All IDs issued by the Republic of Rwanda before 2008. - Birth Certificate (Attestation de Naissance / Attestation d'identité complete) issued by the Republic of Rwanda before 2008. - Birth Certificate issued by the country of birth. - Another document indicating the identity of the applicant. - Another document, indicating the above-mentioned Rwandan nationality can be used. - The child's birth certificate shows the birth certificate (Acte de Naissance / Birth certificate) accompanied by the child's birth certificate."
       ]
     },
-
-{
+    {
       "tag": "BIOMETRIC_DATA_CAPTURE",
-      "patterns": ["Where is the biometric data captured?", "See you later", "Goodbye"],
+      "patterns": [
+        "Where is the biometric data captured?",
+        "What are the methods used to capture biometric data?",
+        "Is biometric data captured onsite or offsite?",
+        "What is the purpose of capturing biometric data?",
+        "How secure is the process of capturing biometric data?"
+      ],
       "responses": [
         "- At the nearest embassy/consulat in which they live. - The applicant is required to provide the said above documents.N.B: A Rwandan living abroad who does not have the above documents goes to the panel"
       ]
     },
-
-{
+    {
       "tag": "getting_id_affter_biometrics",
-      "patterns": ["Where, when can I get an ID after biometrics?", "What is the location for capturing biometric data?", "Where can biometric data be recorded?","Can you tell me the place where biometric data is captured?","Is there a designated location for capturing biometric information?","Where do you go to have your biometric data captured?"],
+      "patterns": [
+        "Where, when can I get an ID after biometrics?",
+        "What is the location for capturing biometric data?",
+        "Where can biometric data be recorded?",
+        "Can you tell me the place where biometric data is captured?",
+        "Is there a designated location for capturing biometric information?",
+        "Where do you go to have your biometric data captured?"
+      ],
       "responses": [
         "Obtaining an ID takes 3 days for those taken biometrics at NIDA, for those abroad they recuperate their ID at the nearest embassy. N.B:A Rwandan living abroad who does not have the above documents goes to the panel"
       ]
     },
-
-{
+    {
       "tag": "idCardRequired",
-      "patterns": ["What is required price to get the identity card?", "Could you inform me of the required amount to acquire an identity card", "Is there a specific cost for obtaining an identity card?","What is the fee for obtaining an identity card?","Can you tell me the price for getting an identity card?","How much does it cost to obtain an identity card?"],
+      "patterns": [
+        "What is required price to get the identity card?",
+        "Could you inform me of the required amount to acquire an identity card",
+        "Is there a specific cost for obtaining an identity card?",
+        "What is the fee for obtaining an identity card?",
+        "Can you tell me the price for getting an identity card?",
+        "How much does it cost to obtain an identity card?"
+      ],
       "responses": [
         "Payment of 500Frw.  N.B: A Rwandan living abroad who does not have these documents goes to the panel"
       ]
     },
-
-{
+    {
       "tag": "When_Where_receivingID",
-      "patterns": ["When and where Biometric Data capture is taken?", "What is the schedule and location for capturing biometric data?", "Can you tell me when and where biometric data is recorded?","Where and when is biometric data captured?","What are the times and places for capturing biometric information?","Could you provide the dates and locations for capturing biometric data?"],
+      "patterns": [
+        "When and where Biometric Data capture is taken?",
+        "What is the schedule and location for capturing biometric data?",
+        "Can you tell me when and where biometric data is recorded?",
+        "Where and when is biometric data captured?",
+        "What are the times and places for capturing biometric information?",
+        "Could you provide the dates and locations for capturing biometric data?"
+      ],
       "responses": [
         "180 sectors have been set up to facilitate a citizen:here is the link (https://www.nida.gov.rw/index.php?eID=dumpFile&t=f&f=43953&token=b19134f85dbe0d1274efdd7fe91a78e2bcd7a472). IDs are completed in 30 days and are sent the sector of residence, where the applicant can go and recuperate his/her ID."
       ]
     },
-
-{
+    {
       "tag": "ID_CORRECTION_PROCESS",
-      "patterns": ["What are the essential documents required for correcting/updating an identity card in English?", "Can you list the basic documents needed for correcting/updating an English identity card?", "What documentation is required for making changes to an English identity card?","Are there specific documents that must be provided for correcting/updating an English identity card?","Could you specify the fundamental documents required for the correction/update of an English identity card?"],
+      "patterns": [
+        "What are the essential documents required for correcting/updating an identity card in English?",
+        "Can you list the basic documents needed for correcting/updating an English identity card?",
+        "What documentation is required for making changes to an English identity card?",
+        "Are there specific documents that must be provided for correcting/updating an English identity card?",
+        "Could you specify the fundamental documents required for the correction/update of an English identity card?"
+      ],
       "responses": [
-                  "1. A copy of the birth record made within 15 days of the notary's signature when it was made before 28/08/2016 or a copy made within 30 days of the date of birth. date of birth notarized when made after 28/08/2016. 2. A copy of the passport issued in Rwanda prior to the 2007 registration (passport or Laissez-passer). 3. A copy of DGIE document issued in Rwanda prior to the 2007 registration (passport or Laissez-passer). ID correction service is provided in the Sector where the applicant resides with one of the above documents, and a receipt of 1500Frw. Note: - The document contains the requirements for the correction of the identity card in detail, which can be found on attachment or in the nearest Sector. - Once the identity card is completed, it will be sent to the Sector of your choice if you requested it through Irembo, or at your sector of residence. - If you want to know more about ID correction, please click here: &nbsp;https://irembo.gov.rw/user/citizen/service/nida/payment_for_id_correction"
+        "1. A copy of the birth record made within 15 days of the notary's signature when it was made before 28/08/2016 or a copy made within 30 days of the date of birth. date of birth notarized when made after 28/08/2016. 2. A copy of the passport issued in Rwanda prior to the 2007 registration (passport or Laissez-passer). 3. A copy of DGIE document issued in Rwanda prior to the 2007 registration (passport or Laissez-passer). ID correction service is provided in the Sector where the applicant resides with one of the above documents, and a receipt of 1500Frw. Note: - The document contains the requirements for the correction of the identity card in detail, which can be found on attachment or in the nearest Sector. - Once the identity card is completed, it will be sent to the Sector of your choice if you requested it through Irembo, or at your sector of residence. - If you want to know more about ID correction, please click here: &nbsp;https://irembo.gov.rw/user/citizen/service/nida/payment_for_id_correction"
       ]
     },
-
-{
+    {
       "tag": "CITIZEN_REGISTRATION",
-      "patterns": ["Can you explain the process for registering for an identity card?", "How does one go about obtaining an identity card through registration?", "What steps are involved in registering for an identity card?","Is there a specific procedure for registering to get an identity card?","Could you outline the process of registering to receive an identity card?"],
+      "patterns": [
+        "Can you explain the process for registering for an identity card?",
+        "How does one go about obtaining an identity card through registration?",
+        "What steps are involved in registering for an identity card?",
+        "Is there a specific procedure for registering to get an identity card?",
+        "Could you outline the process of registering to receive an identity card?"
+      ],
       "responses": [
-                      "Registration is carried out at health facility where the birth occurred. In case a birth was not registered within the 30 days prescribed by Law; the late or delayed registration of the citizen is conducted at the Sector of residence and requires providing supporting documents. - Birth certificate issued by the doctor at the place of birth for the birth occurred in health facility. - Witnesses and a letter for Executive Secretary of the cell testifying the birth, when the birth occurred in community."
-                    ]
+        "Registration is carried out at health facility where the birth occurred. In case a birth was not registered within the 30 days prescribed by Law; the late or delayed registration of the citizen is conducted at the Sector of residence and requires providing supporting documents. - Birth certificate issued by the doctor at the place of birth for the birth occurred in health facility. - Witnesses and a letter for Executive Secretary of the cell testifying the birth, when the birth occurred in community."
+      ]
     },
-
-{
+    {
       "tag": "SPECIAL_CASES",
-      "patterns": ["What is required to urgently obtain an identity card?", "Can you provide a list of the requirements to get an identity card as soon as possible?", "What documents are needed to obtain an identity card on an urgent basis?","What are the essential steps to get an identity card urgently?","How can one quickly get an identity card and what is required for that?"],
+      "patterns": [
+        "What is required to urgently obtain an identity card?",
+        "Can you provide a list of the requirements to get an identity card as soon as possible?",
+        "What documents are needed to obtain an identity card on an urgent basis?",
+        "What are the essential steps to get an identity card urgently?",
+        "How can one quickly get an identity card and what is required for that?"
+      ],
       "responses": [
         "Looking for an identity card urgently requires the following: - Document indicating that he/she has an emergence case. Note:  - Lost or stolen identity cards go through Irembo for ID replacement. - The applicant who has not yet received his ID, is required to go to the nearest Sector. - Those for correction also go to the nearest Sector with supporting documents. Once the identity card is done it will be sent to the sector of choice or sector of residence."
-         ]
+      ]
     },
-
-
-{
+    {
       "tag": "Declaration",
-      "patterns": ["How can I declare on Irembo portal?", "Can you guide me through the process of declaring on the Irembo website?", "How can I submit a declaration through the Irembo platform?","What are the steps for making a declaration on the Irembo portal?","Is there a specific procedure for declaring on the Irembo portal?","What is the process for making a declaration using the Irembo online platform?"],
+      "patterns": [
+        "How can I declare on Irembo portal?",
+        "Can you guide me through the process of declaring on the Irembo website?",
+        "How can I submit a declaration through the Irembo platform?",
+        "What are the steps for making a declaration on the Irembo portal?",
+        "Is there a specific procedure for declaring on the Irembo portal?",
+        "What is the process for making a declaration using the Irembo online platform?"
+      ],
       "responses": [
         "You can go anywhere to Irembo agent, he/she shall assist you. Or you create your own account and declare yourself.",
         "1.Visit the Irembo website (you can usually find the address by searching 'Irembo' online).2.Register or log in to your account (if you don't have an account, you can create one). 3.Navigate to the appropriate page or section for the declaration you want to make. 4.Fill out any required fields or forms with accurate and up-to-date information. 5.Submit the declaration. Note: The specific steps for declaring on the Irembo portal may vary depending on the country, the type of declaration, and other factors, so it's best to consult the Irembo website or support resources for more information."
       ]
     },
-
-{
+    {
       "tag": "rib_station",
-      "patterns": ["How can I know the RIB station to report to?", "Where should I go to report to a RIB station?", "What is the process for determining the RIB station I need to report to?","Can you explain how I can find out which RIB station I should report to?","What steps do I need to take to know the RIB station I should report to?","Is there a specific method for determining the RIB station that I need to report to?"],
+      "patterns": [
+        "How can I know the RIB station to report to?",
+        "Where should I go to report to a RIB station?",
+        "What is the process for determining the RIB station I need to report to?",
+        "Can you explain how I can find out which RIB station I should report to?",
+        "What steps do I need to take to know the RIB station I should report to?",
+        "Is there a specific method for determining the RIB station that I need to report to?"
+      ],
       "responses": [
         "When you are filling information on Irembo portal, there is a list of RIB stations ready to receive your, and you choose the nearest one."
       ]
     },
-
-{
+    {
       "tag": "received_request",
-      "patterns": ["How can I know that my request is received?", "See you later", "Goodbye"],
+      "patterns": [
+        "How can I know that my request is received?",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
         "After sending your request via Irembo, you receive a message / email from RIB inviting you to report yourself at RIB station."
       ]
     },
-
-{
+    {
       "tag": "feedback",
-      "patterns": ["How long does it take to get a feedback?", "What is the process for confirming receipt of my request?", "How can I tell if my request has been received?","Is there a way to check if my request has been received by the recipient?","Can you explain how I can verify that my request has been received?","What steps do I need to take to confirm that my request has been received?"],
+      "patterns": [
+        "How long does it take to get a feedback?",
+        "What is the process for confirming receipt of my request?",
+        "How can I tell if my request has been received?",
+        "Is there a way to check if my request has been received by the recipient?",
+        "Can you explain how I can verify that my request has been received?",
+        "What steps do I need to take to confirm that my request has been received?"
+      ],
       "responses": [
         "After submitting your request, you will get a feedback within 5 days"
       ]
     },
-
-{
+    {
       "tag": "rib_docs",
-      "patterns": ["What is the required document when I go to RIB?", "What documents do I need to bring to RIB?", "Can you tell me which documents are required at RIB?","What are the necessary papers I need to have when visiting RIB?","What kind of document should I bring to RIB?","Could you specify the document that is mandatory for RIB?"],
+      "patterns": [
+        "What is the required document when I go to RIB?",
+        "What documents do I need to bring to RIB?",
+        "Can you tell me which documents are required at RIB?",
+        "What are the necessary papers I need to have when visiting RIB?",
+        "What kind of document should I bring to RIB?",
+        "Could you specify the document that is mandatory for RIB?"
+      ],
       "responses": [
         "Any document available with your photo."
       ]
     },
-
-{
+    {
       "tag": "after_rib",
-      "patterns": ["What happens after RIB' approve?", "What are the next steps after RIB approval?", "Can you describe what occurs following RIB's approval?","What is the outcome of RIB's approval?","Can you explain what transpires once RIB gives its approval?","What can be expected after getting approval from RIB?"],
+      "patterns": [
+        "What happens after RIB' approve?",
+        "What are the next steps after RIB approval?",
+        "Can you describe what occurs following RIB's approval?",
+        "What is the outcome of RIB's approval?",
+        "Can you explain what transpires once RIB gives its approval?",
+        "What can be expected after getting approval from RIB?"
+      ],
       "responses": [
         "After RIB, you are provided with a number for ID replacement payment. And you can I apply for ID replacement certificate (if you want)."
       ]
     },
-
-{
+    {
       "tag": "billing_irembo",
-      "patterns": ["How do you get a billing number from Irembo?", "What is the process for obtaining a billing number from Irembo?", "Can you explain how to acquire a billing number from Irembo?","Is there a specific method for getting a billing number from Irembo?","Where can I find the instructions for obtaining a billing number from Irembo?","What steps do I need to follow to get a billing number from Irembo?"],
+      "patterns": [
+        "How do you get a billing number from Irembo?",
+        "What is the process for obtaining a billing number from Irembo?",
+        "Can you explain how to acquire a billing number from Irembo?",
+        "Is there a specific method for getting a billing number from Irembo?",
+        "Where can I find the instructions for obtaining a billing number from Irembo?",
+        "What steps do I need to follow to get a billing number from Irembo?"
+      ],
       "responses": [
         "You will receive a message from Irembo, by your telephone or email"
       ]
     },
-{
+    {
       "tag": "replacement_cost",
-      "patterns": ["How much does a replacement ID cost?", "What is the fee for a new ID?", "How much would I have to pay for a replacement ID?","Can you tell me the cost of getting a new ID?","Is there a set price for a replacement ID?","What is the cost involved in obtaining a replacement ID?"],
+      "patterns": [
+        "How much does a replacement ID cost?",
+        "What is the fee for a new ID?",
+        "How much would I have to pay for a replacement ID?",
+        "Can you tell me the cost of getting a new ID?",
+        "Is there a set price for a replacement ID?",
+        "What is the cost involved in obtaining a replacement ID?"
+      ],
       "responses": [
         "The ID replacement costs 1500fr paid on Irembo"
       ]
     },
-{
+    {
       "tag": "id_produced",
-      "patterns": ["How can I know if my ID is produced?", "Is there a way to check if my ID has been manufactured?", "What is the process for determining if my ID is ready?","Can you tell me how I can find out if my ID has been produced?","Is there a status update available for my ID production?","What are the steps to check if my ID is complete and produced?"],
+      "patterns": [
+        "How can I know if my ID is produced?",
+        "Is there a way to check if my ID has been manufactured?",
+        "What is the process for determining if my ID is ready?",
+        "Can you tell me how I can find out if my ID has been produced?",
+        "Is there a status update available for my ID production?",
+        "What are the steps to check if my ID is complete and produced?"
+      ],
       "responses": [
         "You will receive a text message from your phone or email informing you, where your ID is sent."
       ]
     },
-{
+    {
       "tag": "abroad_id",
-      "patterns": ["How does a Rwandan living abroad apply for a lost identity card?", "What is the procedure for a Rwandan living overseas to obtain a replacement identity card?", "Can you explain the process for applying for a lost ID card if you are living abroad as a Rwandan?","Is there a specific method for Rwandans abroad to replace a lost identity card?","Where can I find information on how to apply for a lost ID card if I am a Rwandan living overseas?","What steps does a Rwandan living outside of the country need to follow to apply for a new identity card?"],
+      "patterns": [
+        "How does a Rwandan living abroad apply for a lost identity card?",
+        "What is the procedure for a Rwandan living overseas to obtain a replacement identity card?",
+        "Can you explain the process for applying for a lost ID card if you are living abroad as a Rwandan?",
+        "Is there a specific method for Rwandans abroad to replace a lost identity card?",
+        "Where can I find information on how to apply for a lost ID card if I am a Rwandan living overseas?",
+        "What steps does a Rwandan living outside of the country need to follow to apply for a new identity card?"
+      ],
       "responses": [
         "A Rwandan living abroad is required to obtain a certificate of loss from the authority in charge where he/she lives, and should submit it to the consulate or embassy of the country in which he or she resides for stamp, and emailing diasporaservices@nida.gov.rw, along with the procurement and contact details of a familiar who will pick the identity card."
       ]
     },
-{
+    {
       "tag": "rib_far_frome",
-      "patterns": ["In case RIB stations are far from me, what should I do?", "What are the alternatives if RIB stations are not close to my location?", "How can I handle the situation if the RIB stations are far from me?","Is there a solution if RIB stations are distant from me?","Can you suggest what I should do if RIB stations are far from where I am?","What should I consider if the RIB stations are not easily accessible from my location?"],
+      "patterns": [
+        "In case RIB stations are far from me, what should I do?",
+        "What are the alternatives if RIB stations are not close to my location?",
+        "How can I handle the situation if the RIB stations are far from me?",
+        "Is there a solution if RIB stations are distant from me?",
+        "Can you suggest what I should do if RIB stations are far from where I am?",
+        "What should I consider if the RIB stations are not easily accessible from my location?"
+      ],
       "responses": [
         "You will find a list of RIB stations on Irembo website."
       ]
     }
-
   ]
 }
